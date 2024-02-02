@@ -70,8 +70,8 @@ selectall.onclick = function(){
   for(let i=0; i<select.length; i++){
     if(select[i].type == "checkbox")
     select[i].checked = true;
-
+    console.log('Hello world')
    
   }
-  
+
 }
