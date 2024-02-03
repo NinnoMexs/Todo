@@ -67,11 +67,11 @@ deleteall.onclick = function(){
 
 selectall.onclick = function(){
   let select = document.getElementsByClassName("form-check-input");
-  // for(let i=0; i<select.length; i++){
-  //   if(select[i].type == "checkbox")
-  //   select[i].checked = true;
-  //   console.log('Hello worl')
+  for(let i=0; i<select.length; i++){
+    if(select[i].type === "checkbox")
+    select[i].checked = true;
+    console.log('Hello worl')
    
-  // }
+  }
 
 }
